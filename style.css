@@ -33,6 +33,9 @@ col-md-4 {
 
 }
 
+h1 {
+padding: 20px;}
+
 header {
 			background-color: black;
 			color:white;
@@ -73,3 +76,35 @@ footer {
   }
 }
 
+ #indexbackground {
+        background-image: url("https://images.unsplash.com/photo-1669503467733-a21fb19c27bb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1760&q=80");
+
+
+      }
+
+ #contactbackground {
+        background-image: url("https://images.unsplash.com/photo-1615842928372-bf534d286c62?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+        background-size: 100%;
+ }
+
+ #registerbackground {
+        background-image: url("https://images.unsplash.com/photo-1545486332-9e0999c535b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+        background-size: 100%;
+ }
+ #aboutbackground {
+        background-image: url("https://images.unsplash.com/photo-1637946175559-22c4fe13fc54?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80");
+        background-size:50%;
+ }
+
+
+
+      /* Height for devices larger than 576px */
+      @media (min-width: 992px) {
+        #intro {
+          margin-top: -58.59px;
+        }
+      }
+
+      .navbar .nav-link {
+        color: #fff !important;
+      }
