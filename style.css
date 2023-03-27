@@ -28,7 +28,10 @@ col-md-4 {
 
 }
 
+.storypage {
+    min-height: 140vh
 
+}
 
 header {
 			background-color: black;
@@ -47,11 +50,11 @@ body{
 
 footer {
     background-color: black;
-    			width: 100%;
-			padding: 20px;
-			text-align: center;
-			padding 50px;
-			margin-top: auto;
+    width: 100%;
+	padding: 20px;
+	text-align: center;
+	padding 50px;
+	margin-top: auto;
 
 }
 
